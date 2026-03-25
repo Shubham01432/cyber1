@@ -1,0 +1,5 @@
+-Built an AI system to analyze structured security alerts
+-Implemented SOC triage workflow
+-Performed threat classification and risk scoring
+-Integrated MITRE ATT&CK mapping
+-Generated automated analyst recommendations
