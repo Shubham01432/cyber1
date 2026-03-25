@@ -1,0 +1,14 @@
+{
+  "alert_id": "A-1001",
+  "alert_type": "network_activity",
+  "indicator_type": "ip",
+  "indicator_value": "192.168.1.10",
+  "source_host": "attacker-machine",
+  "destination_host": "target-server",
+  "destination_ip": "192.168.1.20",
+  "protocol": "TCP",
+  "evidence": {
+    "packet_count": 75,
+    "time_window_seconds": 30
+  }
+}
