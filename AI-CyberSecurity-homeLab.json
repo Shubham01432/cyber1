@@ -1,0 +1,161 @@
+{
+  "available": true,
+  "metadata": {
+    "id": "495f8ba2-428c-47c2-ac57-8f2222baf504",
+    "exportVersion": "20260323104139_AddScopeToAssessmentTemplate",
+    "tagline": "first home lab in cyber using ai ",
+    "agentDescription": "",
+    "industry": "",
+    "tasks": "",
+    "credentialExportOption": "Placeholder",
+    "dataSourceExportOption": "Placeholder",
+    "versionInformation": "1.00",
+    "state": "Preview",
+    "contributorId": "019d20d4-5171-7d0b-b2e0-2775c5d352e6",
+    "contributorGivenName": "shubham",
+    "contributorSurname": "ishware",
+    "videoLink": "",
+    "readiness": "Template",
+    "department": "IT",
+    "agentLastUpdated": "2026-03-25T06:51:13.5182820Z",
+    "country": null
+  },
+  "agent": {
+    "id": "495f8ba2-428c-47c2-ac57-8f2222baf504",
+    "name": "Untitled Agent (1)",
+    "executionName": "untitled_agent_%281%29",
+    "agentIcon": null,
+    "agentDescription": "first home lab in cyber using ai ",
+    "markdownDescription": "",
+    "videoLink": "",
+    "industry": "",
+    "subIndustries": [],
+    "tags": [],
+    "agentDetails": null,
+    "steps": [
+      {
+        "id": "1d3a489f-63a7-460c-b593-2b1a89329b78",
+        "stepType": "inputStep",
+        "position": {
+          "x": "48",
+          "y": "12"
+        },
+        "handles": [
+          {
+            "uuid": "ca0a4845-7dc7-4e3c-9c98-8098f9bbc03f",
+            "type": "source",
+            "label": "",
+            "tooltip": "",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "dependenciesObject": [],
+        "stepTitle": "Input",
+        "preferredPdfParserId": "3b6d704c-3442-405b-afd4-d5dc64b6ea41"
+      },
+      {
+        "id": "a23a7e8c-db4b-481c-b2ee-8c0bbe15e67f",
+        "stepType": "outputStep",
+        "position": {
+          "x": "72",
+          "y": "350"
+        },
+        "handles": [
+          {
+            "uuid": "5050af49-168a-4e2b-8db0-113654c06a4e",
+            "type": "target",
+            "label": "",
+            "tooltip": "",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "dependenciesObject": [
+          {
+            "parentId": "ef8b0ead-1752-4d53-81a9-bcb43f5a4cd7",
+            "parentHandleId": "aa060ad0-585b-4bb2-91a8-c16989ce1860",
+            "handleId": "5050af49-168a-4e2b-8db0-113654c06a4e"
+          }
+        ],
+        "stepTitle": "Output"
+      },
+      {
+        "id": "ef8b0ead-1752-4d53-81a9-bcb43f5a4cd7",
+        "stepType": "AIOperation",
+        "position": {
+          "x": "12",
+          "y": "171"
+        },
+        "handles": [
+          {
+            "uuid": "aa060ad0-585b-4bb2-91a8-c16989ce1860",
+            "type": "source",
+            "label": "",
+            "tooltip": "",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "uuid": "dce649a8-d357-4553-9a57-e04c3c4f154a",
+            "type": "target",
+            "label": "",
+            "tooltip": "",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "dependenciesObject": [
+          {
+            "parentId": "1d3a489f-63a7-460c-b593-2b1a89329b78",
+            "parentHandleId": "ca0a4845-7dc7-4e3c-9c98-8098f9bbc03f",
+            "handleId": "dce649a8-d357-4553-9a57-e04c3c4f154a"
+          }
+        ],
+        "temperature": 1,
+        "includeDateTimeContext": true,
+        "includeUserDetailsContext": true,
+        "modelId": "f6468394-5a93-430e-8778-e1cebbe624ff",
+        "toolIds": [],
+        "toolParamsJson": "{}",
+        "stepTitle": "AI Model",
+        "aiOperationStepIncludeChatHistory": true,
+        "aiOperationStepIncludeAttachments": true,
+        "aiOperationStepUseDataSource": false,
+        "selectedDataSources": []
+      }
+    ],
+    "behaviours": [],
+    "agentUnicodeIcon": "",
+    "agentIconBase64": null,
+    "alignment": "Vertical"
+  },
+  "dataSources": null,
+  "prompts": null,
+  "tools": null,
+  "models": [
+    {
+      "id": "f6468394-5a93-430e-8778-e1cebbe624ff",
+      "displayName": "GPT-5",
+      "modelName": "gpt-5-2025-08-07",
+      "promptId": null,
+      "systemPromptDefinition": null,
+      "inputType": "image",
+      "provider": "OpenAI",
+      "sourceType": "library",
+      "libraryModelId": "a1b2c3d4-e5f6-4a8b-9c0d-e1f2a3b4c5d6",
+      "author": "OpenAI",
+      "category": "Multimodal"
+    }
+  ],
+  "memories": null,
+  "pythonCodeBlocks": null,
+  "routers": null,
+  "approvalRequests": null,
+  "webhookApprovalRequests": null,
+  "agentCards": null,
+  "subAgents": null,
+  "deployment": null,
+  "interfaces": null,
+  "sdkSteps": null
+}
