@@ -1,0 +1,20 @@
+{
+  "alert_id": "A-1001",
+  "threat_classification": "Network Reconnaissance / Scanning",
+  "risk_score": 70,
+  "risk_level": "High",
+  "confidence_level": "High",
+  "mitre_mapping": {
+    "tactic": "Discovery",
+    "technique_id": "T1046",
+    "technique_name": "Network Service Scanning"
+  },
+  "analysis_reasoning": "Packet count is above 50 and activity occurred within a short time window, indicating possible scanning behavior.",
+  "recommended_actions": [
+    "Monitor traffic",
+    "Enrich IP with threat intelligence",
+    "Escalate to Tier 2 for further analysis"
+  ],
+  "escalation_required": true,
+  "executive_summary": "Suspicious network activity detected that may indicate scanning behavior. Further investigation is recommended to prevent potential security risks."
+}
